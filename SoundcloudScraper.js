@@ -75,4 +75,5 @@ async function main() {
   fs.writeFile(fileName, data, (err) => {
     if (err) throw err;
   })
+  //browser.close()
 } 
